@@ -33,7 +33,7 @@ echo "export PATH" >> .bashrc
 
 #Procedimentos para a instalacao do CCNx
 #Procedures for the installation of CCNx
-wget http://www.ccnx.org/releases/ccnx-0.8.1.tar.gz
+wget http://www.ccnx.org/releases/ccnx-0.8.1.tar.gz #Editar, caso queira baixar outra versão(Edit if you want to download another version)
 tar -vzxf ccnx-0.8.1.tar.gz
 cd ccnx-0.8.1
 sudo ./configure
